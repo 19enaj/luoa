@@ -1,0 +1,125 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+getgenv().SecureMode = true
+
+local Window = Rayfield:CreateWindow({
+	Name = "FurkanScripting Luoa",
+	LoadingTitle = "FurkanScripting... Sunar!",
+	LoadingSubtitle = "port oluşturuyor...",
+})
+local Tab = Window:CreateTab("Main GUI's")
+local Section = Tab:CreateSection("Games")
+local TabUtil = Window:CreateTab("Utility")
+local SectionUtil = TabUtil:CreateSection("Universal")
+local TabOther = Window:CreateTab("Misc.")
+local SectionOther = TabOther:CreateSection("totally random")
+
+local Label = Tab:CreateLabel("FRKSC")
+local Label = TabUtil:CreateLabel("FRKSC")
+local Label = TabOther:CreateLabel("FRKSC")
+
+
+local Button = Tab:CreateButton({
+	Name = "Murder Mystery 2",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Criminality",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JackHiggly/RobloxThings/main/FemWare0"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Fortnite [MOBILE!]",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/skatbr/Roblox-Releases/main/Roblox_Fortnite.lua"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Games Unite Testing Place",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LordNahida/GUnite/main/ESP.lua"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Arsenal",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Init"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Da Hood",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/rogelioajax/lua/main/MangoHub"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Blox Fruits(CANT CLOSE)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/19enaj/luoa/main/luoa%20-%20Blox%20Fruits"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "The Rake Remastered",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RealZzHub/MainV2/main/Main.lua"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "MadCity2",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Deni210/madcity/main/Ruby%20Hub%20Chapter%202"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "BeeSwarm",
+	Callback = function()
+		loadstring(game:HttpGet('https://s.kometa.ga/kometa.lua'))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Bed Wars",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua'))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Muscle Legends",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/main/main/Musclas%20Legenos.lua'))()
+	end,
+})
+--Utility Olan Kısım--Utility Olan Kısım--Utility Olan Kısım--Utility Olan Kısım
+--Utility Olan Kısım--Utility Olan Kısım--Utility Olan Kısım--Utility Olan Kısım
+--Utility Olan Kısım--Utility Olan Kısım--Utility Olan Kısım--Utility Olan Kısım
+--Utility Olan Kısım--Utility Olan Kısım--Utility Olan Kısım--Utility Olan Kısım
+--Utility Olan Kısım--Utility Olan Kısım--Utility Olan Kısım--Utility Olan Kısım
+--Utility Olan Kısım--Utility Olan Kısım--Utility Olan Kısım--Utility Olan Kısım
+--Utility Olan Kısım--Utility Olan Kısım--Utility Olan Kısım--Utility Olan Kısım
+--Utility Olan Kısım--Utility Olan Kısım--Utility Olan Kısım--Utility Olan Kısım
+local Button = TabUtil:CreateButton({
+	Name = "Unnamed Esp",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua"))();
+	end,
+})
+local Button = TabUtil:CreateButton({
+	Name = "Aimbot",
+	Callback = function()
+		-- Please consider using the newer versions of CheatX, this is broken and buggy :(
+if syn then else
+loadstring(game:HttpGet('https://raw.githubusercontent.com/2dgeneralspam1/lua-releases/main/iris-compat.lua'))()
+end
+loadstring(game:HttpGet('https://grfbin.ml/cheatx/old-script.lua'))()
+	end,
+})
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+local Button = TabOther:CreateButton({
+	Name = "Games United Testing Place ESP",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script"))()
+	end,
+})
+
