@@ -51,7 +51,7 @@ local Window = Rayfield:CreateWindow({
       Note = "Join the discord for key (discord.gg/66EjaxSW3B)",
       FileName = "SiriusKey",
       SaveKey = false,
-      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      GrabKeyFromSite = false,
       Key = "ihateniggerslickingmybutniggersfuckingniggers"
    }
 })
