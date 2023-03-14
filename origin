@@ -50,9 +50,9 @@ local Window = Rayfield:CreateWindow({
       Subtitle = "Key System",
       Note = "Join the discord for key (discord.gg/66EjaxSW3B)",
       FileName = "SiriusKey",
-      SaveKey = true,
+      SaveKey = false,
       GrabKeyFromSite = false,
-      Key = "ihateniggerslickingmybutniggersfuckingniggers"
+      Key = "ihateniggerslickingmybutniggersfuckingnigger"
    }
 })
 -----------------------------------------------------------------------------------------------
@@ -72,32 +72,12 @@ local Window = Rayfield:CreateWindow({
 -----------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------
 
-local Tab = Window:CreateTab("Games")
+local Tab = Window:CreateTab("Main GUI's")
 local Section = Tab:CreateSection("Games")
-local TabUtil = Window:CreateTab("Universal")
+local TabUtil = Window:CreateTab("Utility")
 local SectionUtil = TabUtil:CreateSection("Universal")
 local TabOther = Window:CreateTab("Misc.")
 local SectionOther = TabOther:CreateSection("totally random")
-
--------------------------------------------------------
-local TabCredits = Window:CreateTab("Credits") -- Title, Image
-local Paragraph = TabCredits:CreateParagraph({Title = "What Is Luoa?", Content = "Luoa is a project that includes popular games and random games in roblox its a multi script gui made by eva"})
-local Paragraph = TabCredits:CreateParagraph({Title = "Who own this project?", Content = "eva and rayfieldlibrary"})
-local Keybind = TabCredits:CreateKeybind({
-   Name = "Close Luoa",
-   CurrentKeybind = "+",
-   HoldToInteract = false,
-   Flag = "Keybind1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
-   Callback = function(Keybind)
-       
-       Rayfield:Destroy()
-   -- The function that takes place when the keybind is pressed
-   -- The variable (Keybind) is a boolean for whether the keybind is being held or not (HoldToInteract needs to be true)
-   end,
-})
--------------------------------------------------------
-
-
 
 local Label = Tab:CreateLabel("FurkanScripting™")
 local Label = TabUtil:CreateLabel("FurkanScripting™")
@@ -178,6 +158,36 @@ local Button = Tab:CreateButton({
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/main/main/Musclas%20Legenos.lua'))()
 	end,
 })
+local Button = Tab:CreateButton({
+	Name = "Ninja Legends",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Demonfall",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/NOOBHUBX/DemonFall/main/NOOB%20HUB.Lua'),true))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Town(Plot Copy)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/19enaj/luoa/main/towncopy"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Combat Warriors",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/19enaj/luoa/main/combat%20war"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Lucky Blocks BattleGrounds",
+	Callback = function()
+		 loadstring(game:HttpGet("https://github.com/bruhhwtf/LUCKY-BLOCKS-Battlegrounds-GUI/raw/main/Main"))()
+	end,
+})
 --Utility Olan Kısım--Utility Olan Kısım--Utility Olan Kısım--Utility Olan Kısım
 --Utility Olan Kısım--Utility Olan Kısım--Utility Olan Kısım--Utility Olan Kısım
 --Utility Olan Kısım--Utility Olan Kısım--Utility Olan Kısım--Utility Olan Kısım
@@ -207,14 +217,8 @@ loadstring(game:HttpGet('https://grfbin.ml/cheatx/old-script.lua'))()
 local Button = TabOther:CreateButton({
 	Name = "test",
 	Callback = function()
-		
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/19enaj/luoa/main/luoamulti"))();
 	end,
-	
-	
-	
-	
-	
-	
 	
 	
 	
@@ -224,7 +228,7 @@ Rayfield:Notify({
    Title = "Welcome / Hoşgeldiniz",
    Content = "Thanks For Using Luoa! / Luoa Kullandığınız için teşekkür ederiz!",
    Duration = 6.5,
-   Image = 12729854730,
+   Image = 12729854767,
    Actions = { -- Notification Buttons
       Ignore = {
          Name = "Okay!",
